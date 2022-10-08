@@ -3,7 +3,7 @@ using namespace std;
 
 void merge(int *arr, int s, int e){
     int mid= (s+e)/2;
-    int len1 =mid-s-1; //1st array length
+    int len1 =mid-s+1; //1st array length
     int len2= e-mid;   //2nd array length
 
     int *first= new int[len1];  //creating 1st arr
